@@ -1,0 +1,28 @@
+{
+  "name": "back_end",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.13.5",
+    "node": "^20.1.0",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "razorpay": "^2.9.2",
+    "toastify": "^2.0.1"
+  }
+}
